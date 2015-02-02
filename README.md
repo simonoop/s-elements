@@ -1,5 +1,4 @@
 # s-elements
-angular elements 
 A simple angular directive to create a button group. Doesn't need bootstrap.
 
 # why?
