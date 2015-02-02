@@ -1,0 +1,37 @@
+.sbuttons-wrapper>div{
+    display:inline-block;
+}
+.sbuttons-wrapper .slabel{
+    margin-right:5px;
+}
+
+.sbutton{
+    display: inline-block;
+    padding:5px 10px 5px 10px;        
+    background: #1373AF;
+    cursor:pointer;
+    color:#ffffff;
+    border-right: 1px solid #0D4D78;
+    border-left: 1px solid #6C6C6C;
+    opacity:.3
+}
+
+.sbutton:hover{
+    background: #6CB6E4;
+    opacity:1;
+}
+
+.sbutton.active{
+    opacity:1;
+}    
+
+.sbutton:first-child{        
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-left:none;
+}
+.sbutton:last-child{        
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-right: none;
+}
