@@ -2,7 +2,7 @@ angular.module("s-elements",[])
     .directive("sbuttons", ['$log',function($log){
         
         var settings = {
-            templatePath : '/s-elements/'
+            templatePath : 's-elements/'
         }
         
         return{
